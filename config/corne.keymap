@@ -7,6 +7,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/rgb.h>
 
 / {
     keymap {
@@ -50,10 +51,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &kp EQUAL  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS       &kp EXCL         &kp POUND  &kp PRINTSCREEN
-&trans  &trans  &trans  &trans  &trans  &trans    &kp MINUS        &kp LEFT_BRACE        &kp RIGHT_BRACE  &kp LESS_THAN  &kp GREATER_THAN        &kp GRAVE
-&trans  &trans  &trans  &trans  &trans  &trans       &trans      &kp LEFT_BRACKET      &kp RIGHT_BRACKET    &kp PERCENT     &kp BACKSLASH         &kp PLUS
-                        &trans  &trans  &trans       &trans                &trans                 &trans
+&trans  &trans  &trans  &trans  &trans  &trans          &kp EQUAL  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS       &kp EXCL         &kp POUND  &kp PRINTSCREEN
+&trans  &trans  &trans  &trans  &trans  &trans          &kp MINUS        &kp LEFT_BRACE        &kp RIGHT_BRACE  &kp LESS_THAN  &kp GREATER_THAN        &kp GRAVE
+&trans  &trans  &trans  &trans  &trans  &trans    &rgb_ug RGB_TOG      &kp LEFT_BRACKET      &kp RIGHT_BRACKET    &kp PERCENT     &kp BACKSLASH         &kp PLUS
+                        &trans  &trans  &trans             &trans                &trans                 &trans
             >;
         };
 
