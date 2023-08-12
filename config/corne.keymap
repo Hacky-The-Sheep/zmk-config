@@ -21,10 +21,10 @@
             //                    | LWR | DEL | GUI |   | ENT | SPC  | ALT |
 
             bindings = <
-&kp ESCAPE  &kp W  &kp L    &kp Y          &kp P         &kp B        &kp Z      &kp F         &kp O    &kp U   &kp SQT         &kp PIPE
- &kp LCTRL  &kp C  &kp R  &lt 2 S          &kp T         &kp G        &kp M      &kp N         &kp E    &kp I     &kp A    &kp SEMICOLON
- &kp LSHFT  &kp Q  &kp J    &kp V        &lt 1 D         &kp K        &kp X      &kp H     &kp COMMA  &kp DOT  &kp FSLH  &kp RIGHT_SHIFT
-                          &kp TAB  &kp BACKSPACE  &lt 3 DELETE    &kp ENTER  &kp SPACE  &kp LEFT_GUI
+&kp ESCAPE    &kp W  &kp L    &kp Y          &kp P         &kp B        &kp Z      &kp F         &kp O    &kp U   &kp SQT         &kp PIPE
+ &kp LCTRL  &lt 4 C  &kp R  &lt 2 S          &kp T         &kp G        &kp M      &kp N         &kp E    &kp I     &kp A    &kp SEMICOLON
+ &kp LSHFT    &kp Q  &kp J    &kp V        &lt 1 D         &kp K        &kp X      &kp H     &kp COMMA  &kp DOT  &kp FSLH  &kp RIGHT_SHIFT
+                            &kp TAB  &kp BACKSPACE  &lt 3 DELETE    &kp ENTER  &kp SPACE  &kp LEFT_GUI
             >;
         };
 
@@ -51,10 +51,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans          &kp EQUAL  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS       &kp EXCL         &kp POUND  &kp PRINTSCREEN
-&trans  &trans  &trans  &trans  &trans  &trans          &kp MINUS        &kp LEFT_BRACE        &kp RIGHT_BRACE  &kp LESS_THAN  &kp GREATER_THAN        &kp GRAVE
-&trans  &trans  &trans  &trans  &trans  &trans    &rgb_ug RGB_TOG      &kp LEFT_BRACKET      &kp RIGHT_BRACKET    &kp PERCENT     &kp BACKSLASH         &kp PLUS
-                        &trans  &trans  &trans             &trans                &trans                 &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp EQUAL  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS       &kp EXCL         &kp POUND  &kp PRINTSCREEN
+&trans  &trans  &trans  &trans  &trans  &trans    &kp MINUS        &kp LEFT_BRACE        &kp RIGHT_BRACE  &kp LESS_THAN  &kp GREATER_THAN        &kp GRAVE
+&trans  &trans  &trans  &trans  &trans  &trans       &trans      &kp LEFT_BRACKET      &kp RIGHT_BRACKET    &kp PERCENT     &kp BACKSLASH         &kp PLUS
+                        &trans  &trans  &trans       &trans                &trans                 &trans
             >;
         };
 
@@ -64,6 +64,15 @@
 &trans  &trans  &trans  &trans  &trans  &trans            &kp LEFT_ARROW          &kp DOWN_ARROW          &kp UP_ARROW          &kp RIGHT  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                    &trans        &kp LC(LG(DOWN))  &kp LC(LG(UP_ARROW))             &trans  &trans  &trans
                         &trans  &trans  &trans                    &trans                  &trans                &trans
+            >;
+        };
+
+        color {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans             &trans  &rgb_ug RGB_EFR  &rgb_ug RGB_EFF  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &rgb_ug RGB_TOG  &rgb_ug RGB_SPD  &rgb_ug RGB_SPI  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans             &trans  &rgb_ug RGB_BRD  &rgb_ug RGB_BRI  &trans  &trans  &trans
+                        &trans  &trans  &trans             &trans           &trans           &trans
             >;
         };
     };
