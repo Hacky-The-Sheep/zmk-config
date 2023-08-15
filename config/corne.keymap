@@ -10,6 +10,11 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/rgb.h>
 
+&led_strip {
+    chain-length = <9>;
+    // 7 backlight + 2 glowlight
+};
+
 / {
     keymap {
         compatible = "zmk,keymap";
