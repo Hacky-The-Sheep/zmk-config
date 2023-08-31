@@ -12,6 +12,7 @@
 
 &led_strip {
     chain-length = <27>;
+
     // 7 backlight + 2 glowlight
 };
 
@@ -28,7 +29,7 @@
 
             bindings = <
 &kp ESCAPE    &kp W  &kp L    &kp Y          &kp P         &kp B        &kp Z      &kp F         &kp O    &kp U   &kp SQT         &kp PIPE
- &kp LCTRL  &lt 4 C  &kp R  &lt 2 S          &kp T         &kp G      &lt 5 M      &kp N         &kp E    &kp I     &kp A    &kp SEMICOLON
+ &kp LCTRL  &lt 4 C  &kp R  &lt 2 S          &kp T       &lt 6 G      &lt 5 M      &kp N         &kp E    &kp I     &kp A    &kp SEMICOLON
  &kp LSHFT    &kp Q  &kp J    &kp V        &lt 1 D         &kp K        &kp X      &kp H     &kp COMMA  &kp DOT  &kp FSLH  &kp RIGHT_SHIFT
                             &kp TAB  &kp BACKSPACE  &lt 3 DELETE    &kp ENTER  &kp SPACE  &kp LEFT_GUI
             >;
@@ -88,6 +89,15 @@
 &trans  &trans  &trans             &trans  &kp C_PLAY_PAUSE  &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &kp C_VOLUME_DOWN   &kp C_VOLUME_UP  &trans    &trans  &trans  &trans  &trans  &trans  &trans
                                    &trans            &trans  &trans    &trans  &trans  &trans
+            >;
+        };
+
+        layer_6 {
+            bindings = <
+&trans   &kp B  &trans   &kp D   &kp W    &kp Z    &kp SQT  &trans  &trans  &trans   &kp J  &trans
+&trans   &kp N  &trans   &kp T   &kp S  &lt 0 G      &kp Y   &kp H   &kp A   &kp E   &kp I  &trans
+&trans  &trans   &kp X   &kp M   &kp C    &kp V      &kp K   &kp P  &trans  &trans  &trans  &trans
+                        &trans  &trans   &trans     &trans  &trans  &trans
             >;
         };
     };
