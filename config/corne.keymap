@@ -58,7 +58,7 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &trans  &trans  &kp EQUAL    &kp MINUS  &trans    &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EXCL       &trans            &trans
+&trans  &trans  &trans  &kp EQUAL    &kp MINUS  &trans    &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EXCL       &kp AT            &trans
 &trans  &trans  &trans  &kp PERCENT  &kp CARET  &trans    &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp LESS_THAN  &kp GREATER_THAN  &trans
 &trans  &trans  &trans  &trans       &kp GRAVE  &trans    &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PERCENT    &kp BACKSLASH     &trans
                         &trans       &trans     &trans    &trans  &trans                &trans
@@ -98,6 +98,15 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp LC(LG(NUMBER_4))  &kp LC(LG(N5))        &kp LC(LG(NUMBER_6))  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp LG(LC(NUMBER_1))  &kp LC(LG(NUMBER_2))  &kp LC(LG(NUMBER_3))  &trans  &trans
                         &trans  &trans  &trans    &trans  &trans                &trans
+            >;
+        };
+
+        layer_7 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
     };
