@@ -28,10 +28,10 @@
             //                    | LWR | DEL | GUI |   | ENT | SPC  | ALT |
 
             bindings = <
-&kp ESCAPE    &lt 6 W  &kp L  &kp Y    &kp P          &kp B             &kp Z      &kp F      &kp O      &kp U    &kp SQT   &kp PIPE
-&kp LCTRL     &lt 4 C  &kp R  &lt 2 S  &kp T          &kp G             &lt 5 M    &kp N      &kp E      &kp I    &kp A     &kp SEMICOLON
-&kp LEFT_ALT  &lt 3 Q  &kp J  &kp V    &lt 1 D        &kp K             &kp X      &kp H      &kp COMMA  &kp DOT  &kp FSLH  &kp LEFT_GUI
-                              &kp TAB  &kp BACKSPACE  &kp LEFT_SHIFT    &kp ENTER  &kp SPACE  &mo 2
+&kp ESCAPE    &lt 6 W  &kp L  &kp Y    &kp P          &kp B             &kp Z      &kp F      &kp O       &kp U    &kp SQT   &kp PIPE
+&kp LCTRL     &lt 4 C  &kp R  &lt 2 S  &kp T          &kp G             &lt 5 M    &kp N      &kp E       &kp I    &kp A     &kp SEMICOLON
+&kp LEFT_ALT  &lt 3 Q  &kp J  &kp V    &lt 1 D        &kp K             &kp X      &kp H      &kp COMMA   &kp DOT  &kp FSLH  &kp LEFT_GUI
+                              &kp TAB  &kp BACKSPACE  &kp LEFT_SHIFT    &kp ENTER  &kp SPACE  &kp DELETE
             >;
         };
 
@@ -58,10 +58,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &trans  &trans  &kp EQUAL    &kp MINUS  &trans    &trans  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EXCL       &kp AT            &trans
-&trans  &trans  &trans  &kp PERCENT  &kp CARET  &trans    &trans  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp LESS_THAN  &kp GREATER_THAN  &trans
-&trans  &trans  &trans  &trans       &kp GRAVE  &trans    &trans  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PERCENT    &kp BACKSLASH     &trans
-                        &trans       &trans     &trans    &trans  &trans                &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &kp MINUS  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EXCL       &kp AT            &kp CARET
+&trans  &trans  &trans  &trans  &trans  &trans    &kp EQUAL  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp LESS_THAN  &kp GREATER_THAN  &kp TILDE
+&trans  &trans  &trans  &trans  &trans  &trans    &kp GRAVE  &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PERCENT    &kp BACKSLASH     &kp UNDER
+                        &trans  &trans  &trans    &trans     &trans                &trans
             >;
         };
 
